@@ -17,6 +17,7 @@
 <ul>
 <li>Typical usage</li>
 <li>Typical geographical size</li>
+</ul>
 
 <h2>What is the Internet</h2>
 <ul>
