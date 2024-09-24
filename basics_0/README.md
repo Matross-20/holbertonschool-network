@@ -25,6 +25,7 @@
 <li>What is localhost</li>
 <li>What is a subnet</li>
 <li>Why IPv6 was created</li>
+</ul>
 
 <h2>TCP/UDP</h2>
 <ul>
