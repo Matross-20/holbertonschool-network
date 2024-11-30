@@ -1,1 +1,72 @@
-https://lucid.app/lucidchart/c0ddcf79-bd87-4e83-9b52-20e5c9d06d94/edit?invitationId=inv_726e1c07-f609-490c-8e75-aa133771cdaa&page=0_0#
++--------------------+     (User Input)
+| Browser            | ----------> https://www.google.com (Enter)
++--------------------+
+
+             |
+             v
++--------------------+     (DNS Lookup)
+| DNS Server         | ----------> IP Address of Google Server
++--------------------+
+
+             |
+             v
++--------------------+     (Secure Connection)
+| User Device        | (Encrypts data using SSL/TLS)
+|                    | ----------> Google Server (Decrypts data)
++--------------------+
+
+             |
+             v
++--------------------+     (Firewall)
+| Firewall           | ----------> Allow/Deny Traffic (Based on Rules)
++--------------------+
+
+             |
+             v
++--------------------+     (Load Balancing)
+| Load Balancer      | ----------> Distributes Request to Available Server
++--------------------+
+
+                  |
+                  v
++--------------------+     (Web Server)
+| Google Web Server  | ----------> Sends Static Content (HTML, CSS, Images)
++--------------------+
+
+                  |
+                  v
++--------------------+     (Application Server)
+| Application Server | (Optional) Executes Code & Retrieves Data if Needed
++--------------------+
+
+                          |
+                          v
++--------------------+     (Database)
+| Database (Optional) | ----------> Provides Dynamic Content (Search Results)
++--------------------+
+
+                          |
+                          v
++--------------------+     (Response)
+| Google Web Server  | ----------> Sends Completed Web Page to User Device
++--------------------+
+
+             |
+             v
++--------------------+     (Display)
+| User Device        | ----------> Shows Web Page in Browser
++--------------------+
+
+
+Explanation:
+
+1)User Input: You type the URL (https://www.google.com) in your browser and press Enter.
+2)DNS Lookup: The browser doesn't understand website names, so it sends the URL to a DNS server. The DNS server translates the URL to the actual IP address of the Google server.
+3)Secure Connection: The communication between your device and the server is encrypted using SSL/TLS for secure data transfer.
+4)Firewall: The firewall acts like a security guard, checking the traffic for any threats before allowing it to reach the server.
+5)Load Balancing: If Google has multiple servers, a load balancer distributes the request to an available server to handle the traffic efficiently.
+6)Web Server: The web server receives the request and sends back static content like HTML, CSS, and images that make up the basic structure of the web page.
+7)Application Server (Optional): Some websites have an application server that generates dynamic content based on your request (e.g., search results). It may also need to retrieve data from a database.
+8)Database (Optional): If dynamic content is needed, the application server might query a database to fetch the information.
+9)Response: The web server sends the complete web page back to your device.
+10)Display: Your browser receives the web page and displays it for you to see.
